@@ -1,4 +1,5 @@
 import cornDogImage from "./corndog.jpg";
+import "./styles.css";
 
 const container = document.getElementById("content");
 
