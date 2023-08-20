@@ -10,4 +10,12 @@ module.exports = {
   devServer: {
     static: "./dist",
   },
+  module: {
+    rules: [
+      {
+        test: /\.jpg$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
 };
