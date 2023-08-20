@@ -15,7 +15,7 @@
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  text-align: center;\n}\n\nimg {\n  width: 200px;\n  height: 200px;\n  margin: 20px 0px;\n}\n\np {\n  max-width: 500px;\n  margin: 0 auto;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  text-align: center;\n}\n\nimg {\n  width: 200px;\n  height: 200px;\n  margin: 20px 0px;\n}\n\np {\n  max-width: 500px;\n  margin: 0 auto;\n}\n\n.tabs {\n  margin: 10px 15px 0;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -109,13 +109,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getContactPage: () => (/* binding */ getContactPage)\n/* harmony export */ });\nconst getContactPage = () => {\n  const container = document.getElementById(\"content\");\n\n  //create element\n  const heading = document.createElement(\"h1\");\n  const description = document.createElement(\"p\");\n\n  //add content to the elements\n  heading.textContent = \"CornKnee Contact Page\";\n  description.textContent = \"Contact is: 32142352\";\n\n  //appending newly created elements to the DOM\n  container.appendChild(heading);\n  container.appendChild(description);\n};\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _initialLoad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./initialLoad.js */ \"./src/initialLoad.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n\n(0,_initialLoad_js__WEBPACK_IMPORTED_MODULE_0__.initialPageLoad)();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _initialLoad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./initialLoad.js */ \"./src/initialLoad.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n\n\n\nconst pageTabs = [\n  { name: \"initial\", module: _initialLoad_js__WEBPACK_IMPORTED_MODULE_0__.initialPageLoad },\n  { name: \"Menu\", module: _menu_js__WEBPACK_IMPORTED_MODULE_1__.getMenuPage },\n  { name: \"Contact\", module: _contact_js__WEBPACK_IMPORTED_MODULE_2__.getContactPage },\n];\n\nconst updatePage = (e) => {\n  container.textContent = \"\";\n  addTabsToPage();\n  pageTabs[e.target.getAttribute(\"data-attribute\")].module();\n};\n\nconst addTabsToPage = () => {\n  for (let i = 0; i < pageTabs.length; i++) {\n    const tab = document.createElement(\"button\");\n    tab.textContent = pageTabs[i].name;\n    tab.classList.add(\"tabs\");\n    tab.setAttribute(\"data-attribute\", i);\n    tab.addEventListener(\"click\", updatePage);\n    container.appendChild(tab);\n  }\n};\n\nconst container = document.getElementById(\"content\");\naddTabsToPage();\n(0,_initialLoad_js__WEBPACK_IMPORTED_MODULE_0__.initialPageLoad)();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -126,6 +136,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ini
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   initialPageLoad: () => (/* binding */ initialPageLoad)\n/* harmony export */ });\n/* harmony import */ var _corndog_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./corndog.jpg */ \"./src/corndog.jpg\");\n\n\nconst initialPageLoad = () => {\n  const container = document.getElementById(\"content\");\n\n  //create element\n  const heading = document.createElement(\"h1\");\n  const foodImage = document.createElement(\"img\");\n  const description = document.createElement(\"p\");\n\n  //add content to the elements\n  heading.textContent = \"CornKnee\";\n  foodImage.src = _corndog_jpg__WEBPACK_IMPORTED_MODULE_0__;\n  description.textContent =\n    \"Embark on a delightful journey at our Korean corn dog haven. Experience the allure of traditional flavors blended with modern flair, where each bite unveils a delectable surprise. Our menu boasts an array of indulgent options, crafting a harmonious symphony of taste and texture that's irresistibly unforgettable.\";\n\n  //appending newly created elements to the DOM\n  container.appendChild(heading);\n  container.appendChild(foodImage);\n  container.appendChild(description);\n};\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/initialLoad.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getMenuPage: () => (/* binding */ getMenuPage)\n/* harmony export */ });\nconst getMenuPage = () => {\n  const container = document.getElementById(\"content\");\n\n  //create element\n  const heading = document.createElement(\"h1\");\n  const description = document.createElement(\"p\");\n\n  //add content to the elements\n  heading.textContent = \"CornKnee Menu\";\n  description.textContent =\n    \"cheese corn dog, sausage corn dog, potato corn dog, squid dog\";\n\n  //appending newly created elements to the DOM\n  container.appendChild(heading);\n  container.appendChild(description);\n};\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
